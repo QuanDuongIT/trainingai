@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rose']
+
+roboflow:
+  workspace: newproject-wl6ci
+  project: dataset_flower
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/newproject-wl6ci/dataset_flower/dataset/1
