@@ -1,0 +1,4 @@
+train: part_15\images
+val: part_15\images
+nc: 8
+names: ['azalea', 'bougainvillea', 'carnation', 'hibiscus', 'marigold', 'rose', 'sunflower', 'water-lily']

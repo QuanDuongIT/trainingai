@@ -1,0 +1,13 @@
+train: C:/Users/USER/flowerai/dataset_flower.v4i.yolov8/train/images
+val: C:/Users/USER/flowerai/dataset_flower.v4i.yolov8/valid/images
+test: C:/Users/USER/flowerai/dataset_flower.v4i.yolov8/test/images
+
+nc: 8
+names: ['azalea', 'bougainvillea', 'carnation', 'hibiscus', 'marigold', 'rose', 'sunflower', 'water-lily']
+
+roboflow:
+  workspace: newproject-wl6ci
+  project: dataset_flower
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/newproject-wl6ci/dataset_flower/dataset/4
